@@ -1,0 +1,24 @@
+define('AUTH_KEY',         'r~h_/I]8Ul9,GX8uMY%_%/A+:mo~wz+[*5hL&!S!hIZo&24jk.!.BhWG>w>YLmyy');
+define('SECURE_AUTH_KEY',  '1f<Pkvk)xlW =0(2,z%3XXSS}^ik8S-+}nlRz2e!X?/lD-|:vT[Dn9PG!C-@ +pi');
+define('LOGGED_IN_KEY',    'XJG!4Dc}/j9Y]/E/B-SFZ>aCA#,x%[N5N/dJ9rJ_U8A42] |%>s!;2>i[6msxB#6');
+define('NONCE_KEY',        '+c_WdX=Q0z`S![?zTG<vNMftp+AQ=Ie?Q!Ik8[d/{(%+`@?lPcVtut/L5-Y|5+QU');
+define('AUTH_SALT',        'm6T>`P0z{fSy*PAo=/V}F^j9(EkyVqk8h#yG1x,fy46jE!o<5j^=YspQ4MChs`V^');
+define('SECURE_AUTH_SALT', ')>4I:P>~n!cV_]=moK0o!W`-+/DkA*vQvKlCAsqs#&mz;c?i+<mQS+y!-dLUZo(|');
+define('LOGGED_IN_SALT',   ')S[IE(|mCbo/cC! |,Z*g=<(</kdSKYlSJ4Hg|+G/-q{OsO-:g~JS!5m11><77~<');
+define('NONCE_SALT',       '^rr2)T|hH|EI=dI:>w(qoTOj9ZT[tMrn+Y_-Yb~E}F?K3]y}CW:eV*t: p#mGz#O');
+
+
+Database Name: 
+wordpress887
+
+Database User Name: 
+wordpressuser887
+
+Database Password: 
+Wqk!!yJk^e^B
+
+Site Password
+Wqk!!yJk^e^B
+
+
+http://localhost:31838/wp-admin/customize.php?theme=twentyfifteen

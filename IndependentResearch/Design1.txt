@@ -1,0 +1,41 @@
+
+1. Lithium ion baterries
+2. Solar Panel
+3. Invertors
+4. Switches
+5. Overcharging protection circuit.
+
+The purpose of the research will be to give metahdology 
+for designing the system to implement the "The Smart Integrated Energy System using alternate Energy Sources"
+
+
+---- Design
+1. Collect the 1 year data for the consumer
+
+Since the geographical condition may vary take all the data from the existing energy supplier
+This will decide the usage pattern of the building.
+
+
+2. From this data consider maximum value of energy usage for the purpose of battery requirements.
+
+3. Repeat this for all the consumer in an Area/Building
+
+4. Addition of all these maximum values of each consumer shall be added to find total power requiremnet of building or an area
+
+5. Using this value of total power you will decide type of battery
+bank specification in terms of Voltage and Ampere Hours
+
+6. Once this is decided. This data will be used to find suitable solar panel
+and wind energy system which can provide the power required we will consider the 
+overdrive usage factor of 1.5   
+
+7. Reverse Selling of Energy to other consumers or global suppliers.
+For example: A consumer is going outside and he/she knows that 
+Its ok to use less battery 
+ 
+--- Solar Energy patterns. 
+-- Solar Tracking device.
+-- Wind Energy Tracking device.
+--  Since Wind energy is not predectible  
+
+The hardware implementation will not be part of the project as it requires special expertise.

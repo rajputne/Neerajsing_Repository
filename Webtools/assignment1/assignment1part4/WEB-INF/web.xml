@@ -1,0 +1,19 @@
+<web-app>
+
+<servlet>
+   <servlet-name>Part4</servlet-name>
+   <servlet-class>Part4</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>Part4</servlet-name>
+   <url-pattern>/Part4</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>  
+   <welcome-file>ClaimsFormPart4.html</welcome-file>  
+</welcome-file-list>
+
+
+
+</web-app>

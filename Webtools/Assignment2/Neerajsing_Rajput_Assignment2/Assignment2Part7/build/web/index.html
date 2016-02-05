@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Clipcart</title>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #wrapper{
+                width:100%;
+                height:auto;
+                margin:0 auto;
+                border:1px solid blue;
+                overflow:hidden;
+            }
+            #wrapper>div{
+                display:inline-block;
+                vertical-align:left;
+                width:20%;
+            }
+            .l{
+                float:left;
+                height: auto;
+            }
+            .r{
+                width:100%;
+                height:100%;
+                float:right;
+            }
+        </style>
+    </head>
+    <body>
+
+        <table style="width:100%;height:100%">
+            <tr>
+                <td width="10%" height="100%"><a href="Books.html" name="i_frameBooks" target="DynamicPage">Books</a><br/>
+                    <a href="Music.html" name="i_frameMusic" target="DynamicPage">Music</a><br/>
+                    <a href="Computers.html" name="i_frameComputers" target="DynamicPage">Computers</a><br/></td>
+                <td width="90%" height="800px">
+                    <div style="height: 100%; overflow:hidden;">
+                        <iframe  src="DynamicPage.html" class="r" name="DynamicPage" frameborder="1" scrolling="yes"></iframe>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

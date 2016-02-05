@@ -1,0 +1,24 @@
+textarea {
+            resize: none;
+        }
+
+        body {
+            background-color: linen;
+        }
+
+        h1 {
+            color: maroon;
+            margin-left: 40px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .wrapper {
+            text-align: center;
+        }
+
+        .button {
+            position: absolute;
+        }

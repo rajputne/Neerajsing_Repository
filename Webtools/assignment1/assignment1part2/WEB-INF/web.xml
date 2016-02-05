@@ -1,0 +1,12 @@
+<web-app>
+<servlet>
+   <servlet-name>GetAllHeaders</servlet-name>
+   <servlet-class>GetAllHeaders</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>GetAllHeaders</servlet-name>
+   <url-pattern>/GetAllHeaders</url-pattern>
+</servlet-mapping>
+
+</web-app>

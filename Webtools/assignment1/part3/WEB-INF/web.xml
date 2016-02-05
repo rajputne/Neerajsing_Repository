@@ -1,0 +1,23 @@
+<web-app>
+
+
+<!-- Part 6-->
+<servlet>
+   <servlet-name>Part3</servlet-name>
+   <servlet-class>Part3</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>Part3</servlet-name>
+   <url-pattern>/Part3</url-pattern>
+</servlet-mapping>
+
+
+<welcome-file-list>  
+   <welcome-file>DoItFromDoPost</welcome-file>  
+    
+  </welcome-file-list>
+
+
+
+</web-app>

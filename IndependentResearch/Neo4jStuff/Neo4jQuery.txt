@@ -1,0 +1,42 @@
+1. MATCH (n)
+DETACH DELETE n
+
+
+load csv with headers from "file:C:/Users/neera/Desktop/Airport.csv" as
+airports create (a1:Airport (label: airports.label, city: airports.city, state: airports.state))
+
+-- Products
+LOAD CSV WITH HEADERS FROM "file:///C:\\Users\\neera\\Desktop\\Sample.csv" AS row
+CREATE (n:Product)
+SET n = row,
+  n.unitPrice = toFloat(row.unitPrice),
+  n.unitsInStock = toInt(row.unitsInStock), n.unitsOnOrder = toInt(row.unitsOnOrder),
+  n.reorderLevel = toInt(row.reorderLevel), n.discontinued = (row.discontinued <> "0")
+
+
+--
+
+LOAD CSV WITH HEADERS FROM "file:///C:\\Users\\neera\\Desktop\\Neo4jStuff\\Products.csv" AS row
+CREATE (n:Products)
+SET n = row
+
+
+LOAD CSV WITH HEADERS FROM "file:///C:\\Users\\neera\\Desktop\\Neo4jStuff\\categories.csv" AS row
+CREATE (n:Category)
+SET n = row
+
+LOAD CSV WITH HEADERS FROM "file:///C:\\Users\\neera\\Desktop\\Neo4jStuff\\Supplier.csv" AS row
+CREATE (n:Supplier)
+SET n = row
+
+MATCH (n)
+DETACH DELETE n
+-- Create Relationship
+
+MATCH (p:Product),(c:Category)
+WHERE p.categoryID = c.categoryID
+CREATE (p)-[:PART_OF]->(c)
+
+MATCH (p:Product),(s:Supplier)
+WHERE p.supplierID = s.supplierID
+CREATE (s)-[:SUPPLIES]->(p)

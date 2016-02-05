@@ -1,0 +1,13 @@
+<web-app>
+
+<servlet>
+   <servlet-name>Part6</servlet-name>
+   <servlet-class>Part6</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>Part6</servlet-name>
+   <url-pattern>/Part6</url-pattern>
+</servlet-mapping>
+
+</web-app>
