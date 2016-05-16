@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.bytecode.use_reflection_optimizer">false</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3308/smartenergy5</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.search.autoregister_listeners">false</property>
+        <property name="hibernate.show_sql">true</property>
+        <mapping class="com.smartenergy.spring.pojo.Useraccount" />
+        <mapping class="com.smartenergy.spring.pojo.Globalenergyvendor" />
+        <mapping class="com.smartenergy.spring.pojo.Roles" />
+        <mapping class="com.smartenergy.spring.pojo.Consumerservicesbilling" />
+        <mapping class="com.smartenergy.spring.pojo.Localconsumptionlist" />
+        <mapping class="com.smartenergy.spring.pojo.Localenergyvendor" />
+        <mapping class="com.smartenergy.spring.pojo.Globalservices" />
+        <mapping class="com.smartenergy.spring.pojo.Username" />
+        <mapping class="com.smartenergy.spring.pojo.Consumer" />
+        <mapping class="com.smartenergy.spring.pojo.Globalconsumptionlist" />
+        <mapping class="com.smartenergy.spring.pojo.Localenergyservices" />
+    </session-factory>
+</hibernate-configuration>

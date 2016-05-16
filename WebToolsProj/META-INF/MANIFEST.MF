@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: AdvertApplication
+Bundle-SymbolicName: AdvertApplication
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: AdvertApplication.jar,
+ yoosoof/Desktop/hibernate-distribution-3.6.2.Final/hibernate3.jar
+Export-Package: com.smartenergy.spring.controller,
+ com.smartenergy.spring.exception,
+ com.smartenergy.spring.pojo
+Import-Package: com.smartenergy.spring.pojo,
+ org.json
